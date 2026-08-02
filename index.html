@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pruthvi Bijjarapu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">PB.</span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" class="btn-nav" target="_blank">Resume ↗</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#projects" onclick="toggleMenu()">Projects</a>
+    <a href="#experience" onclick="toggleMenu()">Experience</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+    <a href="resume.pdf" target="_blank">Resume ↗</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-tag">[Available for Internships — 2027 Grad]</div>
+    <h1 class="hero-name">PRUTHVI<br/>BIJJARAPU</h1>
+    <div class="hero-sub">
+      <span class="hero-role">Full-Stack Dev</span>
+      <span class="hero-sep">×</span>
+      <span class="hero-role">AI/ML Builder</span>
+      <span class="hero-sep">×</span>
+      <span class="hero-role">CSE @ MGIT</span>
+    </div>
+    <p class="hero-desc">I build scalable systems, intelligent pipelines,<br/>and production-ready web apps that actually ship.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">VIEW PROJECTS</a>
+      <a href="resume.pdf" class="btn-secondary" target="_blank">DOWNLOAD RESUME</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-box">
+        <span class="stat-num">290+</span>
+        <span class="stat-label">LeetCode</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">8.87</span>
+        <span class="stat-label">CGPA / 10</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">2</span>
+        <span class="stat-label">Internships</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">// 01 — ABOUT</div>
+    <div class="about-grid">
+      <div class="about-text-box">
+        <h2>Who am I?</h2>
+        <p>B.Tech Computer Science student at <strong>Mahatma Gandhi Institute of Technology</strong>, Hyderabad. Graduating April 2027 with a CGPA of 8.87.</p>
+        <p>I'm into building things end-to-end — from REST APIs and microservices to RL agents that optimize warehouses. If it's a hard problem with a systems angle, I'm interested.</p>
+        <p>Also certified in <strong>Oracle Cloud Infrastructure</strong> and <strong>ServiceNow System Administration</strong>. Active on LeetCode (290+ problems) and GeeksforGeeks (200+).</p>
+        <div class="about-links">
+          <a href="https://github.com/Pruthvi2911" target="_blank" class="pill-link">GitHub ↗</a>
+          <a href="https://linkedin.com/in/pruthvi-bijjarapu29" target="_blank" class="pill-link">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="skills-box">
+        <div class="skill-group">
+          <span class="skill-group-label">LANGUAGES</span>
+          <div class="skill-tags">
+            <span class="tag">Java</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">JavaScript</span><span class="tag">SQL</span><span class="tag">R</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">FRONTEND</span>
+          <div class="skill-tags">
+            <span class="tag">React.js</span><span class="tag">HTML/CSS</span><span class="tag">Figma</span><span class="tag">Socket.io</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">BACKEND</span>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">FastAPI</span><span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">AI / ML</span>
+          <div class="skill-tags">
+            <span class="tag">PyTorch</span><span class="tag">Stable-Baselines3</span><span class="tag">Gymnasium</span><span class="tag">NumPy</span><span class="tag">Pandas</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <span class="skill-group-label">DATABASES & TOOLS</span>
+          <div class="skill-tags">
+            <span class="tag">MongoDB</span><span class="tag">Oracle SQL</span><span class="tag">Docker</span><span class="tag">Git</span><span class="tag">Postman</span><span class="tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">// 02 — PROJECTS</div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-year">2026</span>
+          <div class="project-links">
+            <a href="https://github.com/Pruthvi2911" target="_blank" class="btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">DarkStore-AI</h3>
+        <p class="project-subtitle">Autonomous Warehouse Slotting & Picking Optimizer</p>
+        <p class="project-desc">ILP solver + PPO reinforcement learning agent that optimizes warehouse shelf layouts for 88 SKUs on a 13×13 grid. Cut picker travel distance by 35%, boosted order-picking success rate from 15% → 60% (4× improvement) over 200K training timesteps.</p>
+        <div class="project-stack">
+          <span class="mono-tag">Python</span><span class="mono-tag">PyTorch</span><span class="mono-tag">Stable-Baselines3</span><span class="mono-tag">PuLP</span><span class="mono-tag">Streamlit</span>
+        </div>
+      </div>
+
+      <div class="project-card accent">
+        <div class="project-header">
+          <span class="project-year">2025</span>
+          <div class="project-links">
+            <a href="https://github.com/Pruthvi2911" target="_blank" class="btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">JobSense</h3>
+        <p class="project-subtitle">AI-Powered Microservices Job Matching Platform</p>
+        <p class="project-desc">Distributed microservices backend for semantic resume-to-job matching. Processes 50+ resumes across independently deployable containerized REST services. Vector similarity search via sentence-transformers.</p>
+        <div class="project-stack">
+          <span class="mono-tag">FastAPI</span><span class="mono-tag">Node.js</span><span class="mono-tag">MongoDB</span><span class="mono-tag">Docker</span><span class="mono-tag">Python</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-year">2025</span>
+          <div class="project-links">
+            <a href="https://github.com/Pruthvi2911" target="_blank" class="btn-ghost">GitHub ↗</a>
+          </div>
+        </div>
+        <h3 class="project-title">QR Attendance</h3>
+        <p class="project-subtitle">Real-Time Smart Attendance System</p>
+        <p class="project-desc">Real-time QR authentication with 10-second dynamic token rotation, hardware-level device binding, JWT session management, and bcrypt security. Live faculty dashboard via Socket.io. Cut manual record-keeping by 80%.</p>
+        <div class="project-stack">
+          <span class="mono-tag">React.js</span><span class="mono-tag">Socket.io</span><span class="mono-tag">MongoDB</span><span class="mono-tag">JWT</span><span class="mono-tag">Node.js</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">// 03 — EXPERIENCE</div>
+    <div class="exp-table">
+
+      <div class="exp-row" onclick="toggleExp(this)">
+        <div class="exp-meta">
+          <span class="exp-year">2025</span>
+          <span class="exp-role">Front-End & UI/UX Dev Intern</span>
+          <span class="exp-company">ASTKSHR DigiSigns</span>
+          <span class="exp-type">Remote</span>
+          <span class="exp-arrow">+</span>
+        </div>
+        <div class="exp-detail">
+          <p>Translated Figma designs into 10+ production-ready React interfaces. Built reusable component library reducing dev cycle time by ~20%. Integrated RESTful APIs and delivered 100% of sprint use-cases on schedule.</p>
+        </div>
+      </div>
+
+      <div class="exp-row" onclick="toggleExp(this)">
+        <div class="exp-meta">
+          <span class="exp-year">2025</span>
+          <span class="exp-role">System Administrator Intern</span>
+          <span class="exp-company">ServiceNow (Cohort 3)</span>
+          <span class="exp-type">Virtual</span>
+          <span class="exp-arrow">+</span>
+        </div>
+        <div class="exp-detail">
+          <p>Automated ITSM workflows for incident, change, and request management — cut manual touchpoints by ~30%. Managed access controls across 3+ permission tiers. Completed 100% of admin training in 6 weeks.</p>
+        </div>
+      </div>
+
+      <div class="exp-row" onclick="toggleExp(this)">
+        <div class="exp-meta">
+          <span class="exp-year">2025</span>
+          <span class="exp-role">Technical Lead</span>
+          <span class="exp-company">Smart India Hackathon</span>
+          <span class="exp-type">On-site</span>
+          <span class="exp-arrow">+</span>
+        </div>
+        <div class="exp-detail">
+          <p>Shortlisted among top college teams. Led end-to-end technical architecture and delivered a working prototype within a 24-hour competitive window.</p>
+        </div>
+      </div>
+
+      <div class="exp-row" onclick="toggleExp(this)">
+        <div class="exp-meta">
+          <span class="exp-year">2023</span>
+          <span class="exp-role">Design Team Member</span>
+          <span class="exp-company">Nova Literary Club, MGIT</span>
+          <span class="exp-type">On-site</span>
+          <span class="exp-arrow">+</span>
+        </div>
+        <div class="exp-detail">
+          <p>Created 20+ promotional visuals and digital assets in Figma and Canva for 5+ institutional workshops and student events, maintaining consistent branding across all publications.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CERTS -->
+    <div class="certs-row">
+      <div class="cert-card">
+        <span class="cert-issuer">ORACLE CLOUD</span>
+        <span class="cert-name">OCI 2025 AI Foundations Associate</span>
+      </div>
+      <div class="cert-card">
+        <span class="cert-issuer">ORACLE CLOUD</span>
+        <span class="cert-name">OCI 2025 Foundations Associate</span>
+      </div>
+      <div class="cert-card">
+        <span class="cert-issuer">SERVICENOW</span>
+        <span class="cert-name">Administration Fundamentals (Micro-Cert)</span>
+      </div>
+      <div class="cert-card">
+        <span class="cert-issuer">SERVICENOW</span>
+        <span class="cert-name">Welcome to ServiceNow (Micro-Cert)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">// 04 — CONTACT</div>
+    <div class="contact-inner">
+      <h2 class="contact-heading">LET'S TALK.</h2>
+      <p class="contact-sub">Open to internships, collabs, and interesting problems.</p>
+      <div class="contact-links">
+        <a href="mailto:pruthvibijjarapu2911@gmail.com" class="contact-btn">EMAIL ↗</a>
+        <a href="https://linkedin.com/in/pruthvi-bijjarapu29" target="_blank" class="contact-btn">LINKEDIN ↗</a>
+        <a href="https://github.com/Pruthvi2911" target="_blank" class="contact-btn">GITHUB ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Built by Pruthvi Bijjarapu — 2025</span>
+    <span class="mono">pruthvibijjarapu2911@gmail.com</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
